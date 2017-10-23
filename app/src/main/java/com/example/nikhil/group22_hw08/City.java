@@ -3,9 +3,8 @@ package com.example.nikhil.group22_hw08;
 /**
  * Assignment - Homework #08
  * File name - City.java
- * Full Name - Naga Manikanta Sri Venkata Jonnalagadda
- *             Karthik Gorijavolu
- * Group #22
+ * Full Name - Nikhil Jonnalagadda
+ *          
  * **/
 public class City {
 
@@ -16,9 +15,7 @@ public class City {
     private Double temperature;
     private String uid;
 
-    public City() {
-
-    }
+    public City() {}
 
     public City(Long cityKey, String cityName, String country, Double temperature, boolean favorite) {
         this.cityKey = cityKey;
